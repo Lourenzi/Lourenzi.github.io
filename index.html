@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated GIF Display</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            font-family: Arial, sans-serif;
+        }
+        
+        .container {
+            text-align: center;
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 1.5rem;
+        }
+        
+        .gif-wrapper {
+            max-width: 100%;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Animated GIF Display</h1>
+        <div class="gif-wrapper">
+            <!-- Replace the src with your GIF URL -->
+            <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWR4MnhuaGc0bWMyMWgzb2UzbWk5d2NuandsOTVnOHF3ajM0YWNvNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aZHLiibRc3Tm2nelbL/giphy.gif" alt="Animated GIF">
+        </div>
+    </div>
+</body>
+</html>
